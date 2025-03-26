@@ -1,0 +1,284 @@
+{
+  "tests": [
+    {
+      "name": "Teste de entidade 1",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=school.sptech.prova_ac1.FidelidadeEspecificacaoTest#testAnotacaoEntityNaClasse",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 60,
+      "points": 1
+    },
+    {
+      "name": "Teste de entidade 2",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=school.sptech.prova_ac1.FidelidadeEspecificacaoTest#testAnotacaoIdNoAtributoId",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 60,
+      "points": 1
+    },
+    {
+      "name": "Teste de entidade 3",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=school.sptech.prova_ac1.FidelidadeEspecificacaoTest#testAnotacaoGeneratedValueNoAtributoId",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 60,
+      "points": 1
+    },
+    {
+      "name": "Teste de entidade 4",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=school.sptech.prova_ac1.FidelidadeEspecificacaoTest#testAtributoId",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 60,
+      "points": 1
+    },
+    {
+      "name": "Teste de entidade 5",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=school.sptech.prova_ac1.FidelidadeEspecificacaoTest#testAtributoEmail",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 60,
+      "points": 1
+    },
+    {
+      "name": "Teste de entidade 6",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=school.sptech.prova_ac1.FidelidadeEspecificacaoTest#testAtributoNome",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 60,
+      "points": 1
+    },
+    {
+      "name": "Teste de entidade 7",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=school.sptech.prova_ac1.FidelidadeEspecificacaoTest#testAtributoCpf",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 60,
+      "points": 1
+    },
+    {
+      "name": "Teste de entidade 8",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=school.sptech.prova_ac1.FidelidadeEspecificacaoTest#testAtributoSenha",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 60,
+      "points": 1
+    },
+    {
+      "name": "Teste de entidade 9",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=school.sptech.prova_ac1.FidelidadeEspecificacaoTest#testAtributoDataNascimento",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 60,
+      "points": 1
+    },
+    {
+      "name": "Teste de cadastro 1",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=school.sptech.prova_ac1.UsuarioControllerCadastroTests#deveCadastrarUsuarioCorretamente",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 60,
+      "points": 1
+    },
+    {
+      "name": "Teste de cadastro 1",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=school.sptech.prova_ac1.UsuarioControllerCadastroTests#deveCadastrarUsuarioCorretamente",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 60,
+      "points": 1
+    },
+    {
+      "name": "Teste de cadastro 2",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=school.sptech.prova_ac1.UsuarioControllerCadastroTests#deveImpedirCadastroDeUsuarioComEmailJaExistente",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 60,
+      "points": 1
+    },
+    {
+      "name": "Teste de cadastro 3",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=school.sptech.prova_ac1.UsuarioControllerCadastroTests#deveImpedirCadastroDeUsuarioComCpfJaExistente",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 60,
+      "points": 1
+    },
+    {
+      "name": "Teste de cadastro 4",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=school.sptech.prova_ac1.UsuarioControllerCadastroTests#deveImpedirCadastroDeUsuarioComCpfEEmailJaExistente",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 60,
+      "points": 1
+    },
+    {
+      "name": "Teste de cadastro 5",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=school.sptech.prova_ac1.UsuarioControllerCadastroTests#deveCadastrarUsuarioCorretamente",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 60,
+      "points": 2
+    },
+    {
+      "name": "Teste de listagem 1",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=school.sptech.prova_ac1.UsuarioControllerListagemTests#deveRetornarStatus200EListaDeUsuarios",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 60,
+      "points": 1
+    },
+    {
+      "name": "Teste de listagem 2",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=school.sptech.prova_ac1.UsuarioControllerListagemTests#deveRetornarStatus204EListaDeUsuariosVazia",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 60,
+      "points": 1
+    },
+    {
+      "name": "Teste de busca por ID 1",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=school.sptech.prova_ac1.UsuarioControllerBuscaPorIdTests#deveRetornarStatus200EUsuario",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 60,
+      "points": 1
+    },
+    {
+      "name": "Teste de busca por ID 2",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=school.sptech.prova_ac1.UsuarioControllerBuscaPorIdTests#deveRetornarStatus404",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 60,
+      "points": 1
+    },
+    {
+      "name": "Teste de remoção 1",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=school.sptech.prova_ac1.UsuarioControllerDeleteTests#deveRemoverCorretamente",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 60,
+      "points": 1
+    },
+    {
+      "name": "Teste de remoção 2",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=school.sptech.prova_ac1.UsuarioControllerDeleteTests#naoDeveRemoverCorretamente",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 60,
+      "points": 1
+    },
+    {
+      "name": "Teste de remoção 3",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=school.sptech.prova_ac1.UsuarioControllerDeleteTests#deveRemoverCorretamenteDb",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 60,
+      "points": 1
+    },
+    {
+      "name": "Teste de listagem por data de nascimento 1",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=school.sptech.prova_ac1.UsuarioControllerDataNascimentoTests#deveRetornarStatus200EUsuario",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 60,
+      "points": 3
+    },
+    {
+      "name": "Teste de listagem por data de nascimento 2",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=school.sptech.prova_ac1.UsuarioControllerDataNascimentoTests#deveRetornarStatus204",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 60,
+      "points": 3
+    },
+    {
+      "name": "Teste de listagem por data de nascimento 3",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=school.sptech.prova_ac1.UsuarioControllerDataNascimentoTests#deveRetornarStatus204BancoVazio",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 60,
+      "points": 3
+    },
+    {
+      "name": "Teste de atualização 1",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=school.sptech.prova_ac1.UsuarioControllerAtualizacaoTests#deveAtualizarCorretamente",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 60,
+      "points": 2
+    },
+    {
+      "name": "Teste de atualização 2",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=school.sptech.prova_ac1.UsuarioControllerAtualizacaoTests#deveAtualizarConsiderandoIdDaUrl",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 60,
+      "points": 2
+    },
+    {
+      "name": "Teste de atualização 3",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=school.sptech.prova_ac1.UsuarioControllerAtualizacaoTests#deveImpedirAtualizacao",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 60,
+      "points": 2
+    }
+  ]
+}

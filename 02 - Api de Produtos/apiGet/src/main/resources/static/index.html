@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>TESTE DE API</title>
+</head>
+<body>
+  <style>
+    body {
+    font-family: arial;
+    margin: 20px;
+    padding: 20px
+    }
+    h2 {
+    color: #333;
+    }
+    input,button {
+    padding: 10px;
+    margin: 5px 0;
+    width: 100;
+    }
+    pre{
+    background: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    }
+  </style>
+  <h2>Buscar Produtos</h2>
+  <button onclick="buscarProdutos()">Buscar</button>
+  <h3>Resposta da API:</h3>
+  <pre id="resultado"></pre>
+<script>
+  function buscarProdutos(){
+  fetch("http://localhost:8080/api/prudotos")
+    .then(response => response.json())
+    .then(data => {
+      document.getElementById("resultado").textContent = JSON.stringify(data,null,2);
+      })
+    .catch(error => {
+        document.getElementById("resultado").textContent = "Erro ao buscar produtos:"+ error;
+    })
+  }
+</script>
+</body>
+</html>
